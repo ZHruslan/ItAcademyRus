@@ -1,7 +1,7 @@
 public class Lesson3Task4 {
     public static void main(String[] args) {
         int hour = 13;
-        switch(hour){
+        switch (hour) {
             case 1:
                 System.out.println("Good night!");
                 break;
