@@ -1,10 +1,12 @@
 public class Lesson2Task3 {
     public static void main(String[] args) {
-        double SquareCircle, LongCircle;
+        double areaCircle;
+        double circleLength;
         double r = 2.3;
-        SquareCircle = 2 * 3.14 * r;
-        LongCircle = r * r * 3.14;
-        System.out.println("Площадь круга = " + SquareCircle);
-        System.out.println("Длинна окружности = " + LongCircle);
+        final double pi = 3.14;
+        areaCircle = 2 * pi * r;
+        circleLength = r * r * pi;
+        System.out.println("Площадь круга = " + areaCircle);
+        System.out.println("Длинна окружности = " + circleLength);
     }
 }
